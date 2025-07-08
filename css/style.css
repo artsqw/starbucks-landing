@@ -31,7 +31,7 @@ button {
 }
 
 a:hover, button:hover {
-    opacity: 0.8;;
+    opacity: 0.8;
 }
 
 .container {
@@ -50,6 +50,38 @@ a:hover, button:hover {
 
 img {
     max-width: 100%;
+}
+
+.text-row {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 60px;
+}
+
+.text-row__title {
+    position: relative;
+    width: 400px;
+}
+
+.text-row__title::before {
+    content: "";
+
+    position: absolute;
+    right: 48px;
+    top: 17px;
+    z-index: -100;
+
+    display: block;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    background: linear-gradient(245deg, rgba(35, 114, 73, 0.55) 0%, rgba(53, 198, 107, 0.73) 51.85%);
+    filter: blur(90px);
+}
+
+.text-row__desc {
+    width: 455px;
 }
 
 /*! Разметка секции HEADER */
@@ -462,38 +494,7 @@ img {
     margin-top: 100px;
 }
 
-.products__text {
-    display: flex;
-    align-items: center;
-    gap: 70px;
-    margin-bottom: 60px;
-}
-
 .title {
-}
-.products__title {
-    position: relative;
-    width: 400px;
-}
-
-.products__title::before {
-    content: "";
-
-    position: absolute;
-    right: 48px;
-    top: 17px;
-    z-index: -100;
-
-    display: block;
-    width: 140px;
-    height: 140px;
-    border-radius: 100%;
-    background: linear-gradient(245deg, rgba(35, 114, 73, 0.55) 0%, rgba(53, 198, 107, 0.73) 51.85%);
-    filter: blur(90px);
-}
-
-.products__desc {
-    width: 450px;
 }
 
 .products__cards {
@@ -591,4 +592,117 @@ img {
     padding: 15px 40px;
 
     font-size: 17px;
+}
+
+/* ! Стилизация секции EVENTS */
+
+.events {
+    margin-top: 100px;
+}
+
+.text-row--reverse {
+    flex-direction: row-reverse;
+}
+
+.text-row__desc {
+}
+
+.event {
+    overflow: hidden; 
+    padding: 45px 30px 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+}
+
+.events__inner-wrapper {
+    display: grid;
+    position: relative;
+    grid-auto-rows: 260px;
+    grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
+    grid-template-areas: "price price kitchen kitchen"
+    "free social social choose";
+    gap: 25px;
+}
+
+.events__inner-wrapper::before {
+    content: "";
+    width: 860px;
+    height: 620px;
+
+
+    position: absolute;
+    top: -410px;
+    left: -610px;
+    z-index: -200;
+
+    background-image: url("../images/icons/lines.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    transform: rotate(410deg)
+}
+
+.events__inner-wrapper::after {
+    content: "";
+
+    position: absolute;
+    bottom: -50px;
+    right: 50%;
+    z-index: -5;
+
+    width: 320px;
+    height: 270px;
+
+    border-radius: 100%;
+    background-color: rgba(217, 217, 217, 0.2);
+    filter: blur(100px);
+}
+
+.event__title {
+    margin-bottom: 50px;
+
+    width: 294px;
+
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 109%;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.btn {
+}
+
+.event__btn {
+    padding: 20px 50px;
+    display: inline-block;
+}
+
+.event--price {
+    background-image: url(/images/events/1.png);
+    grid-area: price;
+}
+
+
+.event--kitchen {
+    background-image: url(/images/events/2.png);
+    grid-area: kitchen;
+}
+
+.event--free {
+    background-image: url(/images/events/3.png);
+    grid-area: free;
+}
+
+.event--social {
+    background-image: url(/images/events/4.png);
+    grid-area: social;
+}
+
+.event--choose {
+    background-image: url(/images/events/5.png);
+    grid-area: choose;
 }
