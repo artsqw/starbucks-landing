@@ -1,10 +1,10 @@
 # StarBucks Landing
-*🇷🇺 russian:*
+*🇷🇺 russian:* </br>
 Лендинг созданнный по гайду на YouTube, включая мои изменения или улучшения. Нужен для закрепления и повышения моих навыков верстки, а также пополнения портфолио
 
 ***
 
-*🇬🇧 english*
+*🇬🇧 english:* </br>
 Landing page created according to the YouTube guide, including my changes or improvements. Needed to add and change my layouts, as well as to replenish the portfolio.
 
 ***
