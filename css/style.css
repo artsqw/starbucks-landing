@@ -169,6 +169,7 @@ img {
 
 .stats__num {
     font-size: 62px;
+    line-height: 109%;
     letter-spacing: -0.03em;
     color: #fff
 }
@@ -355,4 +356,97 @@ img {
 
 .benefits__icons--money  {
     width: 210px;
+}
+
+/* ! Стилизация секции STATS */
+
+.history {
+    margin-top: 135px;
+}
+
+.history .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.history__img-wrapper {
+    position: relative;
+    display: flex;
+    box-shadow: -14px 26px 65px 0 rgba(0, 0, 0, 0.25);
+}
+
+.history__img {
+    width: 465px;
+    clip-path: polygon(67% 0, 100% 25%, 100% 100%, 0 100%, 0 0);
+}
+
+.history__img-wrapper::before {
+    content: "";
+
+    clip-path: polygon(67% 0, 100% 25%, 100% 100%, 0 100%, 0 0);
+
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 25px;
+    left: -45px;
+
+    z-index: -200;
+
+    background: #237249;
+}
+
+.history__text { 
+    position: relative;
+    max-width: 460px;
+}
+
+.history__text::before { 
+    content: "";
+    width: 920px;
+    height: 670px;
+
+
+    position: absolute;
+    right: -145px;
+    bottom: -290px;
+    z-index: -200;
+
+    background-image: url("../images/icons/lines.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    transform: rotate(37deg);
+}
+
+.history .title{
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.stats__title::before {
+    content: "";
+
+    position: absolute;
+    right: 60px;
+    top: 40px;
+    z-index: -100;
+
+    display: block;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    background: linear-gradient(245deg, rgba(35, 114, 73, 0.55) 0%, rgba(53, 198, 107, 0.73) 51.85%);
+    filter: blur(90px);
+}
+
+.stats__desc {
+    margin-bottom: 60px;
+}
+
+.stats__pic {
+    clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%, 0 26%);
 }
