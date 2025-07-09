@@ -6,19 +6,19 @@
     <title>Starbucks Landing</title>
     <link rel="stylesheet" href="css/style.css"/>
   </head>
-  <body>
+  <id="top" body>
     <header class="header">
     <div class="container header__container">
     <a href="#!" class="logo text-gradient">StarBucks</a>
     <ul class="nav__list">
-        <li class="nav__item"><a href="" class="nav__link">Home</a></li>
-        <li class="nav__item"><a href="" class="nav__link">Select</a></li>
-        <li class="nav__item"><a href="" class="nav__link">Shop</a></li>
+        <li class="nav__item"><a href="#welcome" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#products" class="nav__link">Select</a></li>
+        <li class="nav__item"><a href="#products" class="nav__link">Shop</a></li>
     </ul>
     </div>
     </header>
     <main class="main">
-    <section class="welcome">
+    <section id="welcome" class="welcome">
     <div class="container">
         <div class="welcome__column">
         <h1 class="title welcome__title">
@@ -57,7 +57,7 @@
     </div>
     </section>
 
-    <section class="benefints">
+    <section id="benefits" class="benefints">
         <div class="container benefits_container">
             <div class="benefits__item">
                 <div class="benefits__img-wrapper">
@@ -85,7 +85,7 @@
         </div>
     </section>
 
-    <section class="history">
+    <section id="history" class="history">
         <div class="container">
             <div class="history__img-wrapper">
                 <img src="./images/room.jpg" alt="" class="history__img">
@@ -99,7 +99,7 @@
         </div>
     </section>
 
-    <section class="products">
+    <section id="products" class="products">
         <div class="container">
             <div class="text-row">
                 <h2 class="title text-row__title">
@@ -162,7 +162,7 @@
         </div>
     </section>
 
-    <section class="events">
+    <section id="events" class="events">
       <div class="container">
         <div class="text-row text-row--reverse">
           <h2 class="title text-row__title">Our New <span class="text-gradient">Events</span></h2>
@@ -194,7 +194,7 @@
       </div>
     </section>
 
-    <section class="contacts">
+    <section id="contacts" class="contacts">
         <div class="container">
             <div class="contacts__text">
                 <h2 class="title contacts__title">Our <span class="text-gradient">Contacts</span></h2>
@@ -210,6 +210,40 @@
             </div>
         </div>
     </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <a href="#!" class="logo text-gradient">StarBucks</a>
+          <nav class="nav">
+            <div class="footer__list-wrapper">
+                <ul class="footer__list-column">
+                    <li class="footer__item"><a href="#top" class="footer__link-title">Main</a></li>
+                    <li class="footer__item"><a href="#!" class="footer__link">Buy</a></li>
+                    <li class="footer__item"><a href="#!" class="footer__link">More</a></li>
+                </ul>
+                <ul class="footer__list-column">
+                    <li class="footer__item"><a href="#history" class="footer__link-title">We make</a></li>
+                    <li class="footer__item"><a href="#!" class="footer__link">Process</a></li>
+                </ul>
+                <ul class="footer__list-column">
+                    <li class="footer__item"><a href="#products" class="footer__link-title">Products</a></li>
+                    <li class="footer__item"><a href="#!" class="footer__link">Capuccino</a></li>
+                    <li class="footer__item"><a href="#!" class="footer__link">Fast</a></li>
+                    <li class="footer__item"><a href="#!" class="footer__link">Fast</a></li>
+                </ul>
+                <ul class="footer__list-column">
+                    <li class="footer__item"><a href="#events" class="footer__link-title">Events</a></li>
+                    <li class="footer__item"><a href="#!" class="footer__link">Drinks</a></li>
+                    <li class="footer__item"><a href="#!" class="footer__link">Eat</a></li>
+                </ul>
+            </div>
+          </nav>
+          <a href="#top" class="footer__up-link"><img class="footer__arrow" src="/images/icons/arrow.svg" alt=""></a>
+        </div>
+        <a href="" class="footer__phone text-gradient">+7-999-999-99-99</a>
+      </div>
+    </footer>
 
     </main>
   </body>

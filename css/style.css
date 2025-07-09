@@ -4,6 +4,7 @@
 /* ! Разметка всего сайта */
 html {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -652,7 +653,6 @@ img {
     width: 860px;
     height: 620px;
 
-
     position: absolute;
     top: -410px;
     left: -610px;
@@ -731,7 +731,9 @@ img {
 /* ! Стилизация секции CONTACTS */
 
 .contacts {
-    margin-top: 150px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    overflow: hidden;
 }
 .contacts .container {
     display: flex;
@@ -871,4 +873,59 @@ img {
     background-repeat: no-repeat;
 
     transform: rotate(20deg);
+}
+
+/* ! Стилизация footer */
+
+.footer {
+    padding: 40px 0;
+    background-color: #0b0c0d;
+}
+.footer .container {
+
+}
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+}
+
+.footer__list-wrapper {
+    display: flex;
+     justify-content: space-between;
+     gap: 80px;
+}
+
+.footer_list-title {
+    color: white;
+}
+
+.footer__list-title {
+}
+.footer__item {
+}
+.footer__link {
+    color: rgba(187, 179, 179, 0.43);
+}
+
+.footer__up-link {
+  width: 85px;
+  height: 85px;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 30px;
+  border: 1.5px solid transparent; 
+  background: linear-gradient(#0b0c0d, #0b0c0d) padding-box, 
+              linear-gradient(-30deg, #237249, #35C66B) border-box; 
+}
+
+.footer__arrow {
+    height: 35px;
+}
+
+.footer__phone {
 }
