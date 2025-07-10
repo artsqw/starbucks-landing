@@ -1,23 +1,36 @@
-# StarBucks Landing
-### 🇷🇺 russian:
-Лендинг, созданнный по гайду на YouTube, включая мои изменения или улучшения. Нужен для закрепления и повышения моих навыков верстки, а также пополнения портфолио
+### 🇬🇧 English version:
+
+## 🌐 Landing Page (based on YouTube tutorial + my improvements)
+
+This landing page was created by following a **YouTube tutorial**, with several **custom improvements and adjustments** added by me. The project helped me **strengthen my layout skills** and enrich my portfolio.
+
+During this project, I improved my skills in:
+- Using **Flexbox** and **CSS Grid**;
+- Applying **semantic HTML** and the **BEM methodology** (Block__Element–Modifier by Yandex);
+- Creating **gradient borders with rounded edges** using different techniques;
+- Working with **pseudo-elements**;
+- Adding **simple animations**;
+- Making the layout **responsive**.
+
+👉 [View the site](https://artsqw.github.io/starbucks-landing/)  
+🖼️ Preview:
+<img width="1919" height="836" alt="изображение" src="https://github.com/user-attachments/assets/667dcb5b-978d-4393-9143-479840b3c1b3" />
 
 ***
 
-### 🇬🇧 english:
-Landing page created according to the YouTube guide, including my changes or improvements. Needed to add and change my layouts, as well as to replenish the portfolio.
+### 🇷🇺 Русская версия:
+## 🌐 Лендинг-сайт (верстка по гайду + мои улучшения)
 
-***
+Лендинг был создан по **гайду с YouTube** с моими собственными **доработками и улучшениями**. Проект предназначен для закрепления навыков верстки и пополнения портфолио.
 
-### As part of this project, I consolidated/improved my skills in:
-1. Working with Flex/Grid
-2. Working with semantics and methodology BEM (block__element-modificator, by Yandex)
-3. Creating Gradient Frames with Rounded Edges in Different Ways
-4. Working with pseudo-elements
-5. A little work with animations
-6. Adaptation
+В процессе я улучшил свои знания в области:
+- Работы с Flexbox и CSS Grid;
+- Использования семантической верстки и методологии BEM (Block__Element–Modifier от Яндекса);
+- Создания градиентных рамок с закруглениями разными способами;
+- Работы с псевдоэлементами;
+- Небольшой анимации;
+- Адаптивной верстки (responsive layout).
 
-#### [Go to this site](https://artsqw.github.io/starbucks-landing/)
-
-### Picture:
-![изображение](https://github.com/user-attachments/assets/7f9efd17-af60-498c-903b-50991eed9c90)
+👉 [Перейти на сайт](https://artsqw.github.io/starbucks-landing/)
+🖼️ Превью:
+<img width="1919" height="836" alt="изображение" src="https://github.com/user-attachments/assets/667dcb5b-978d-4393-9143-479840b3c1b3" />
