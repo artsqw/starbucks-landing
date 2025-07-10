@@ -17,5 +17,7 @@ Landing page created according to the YouTube guide, including my changes or imp
 5. A little work with animations
 6. Adaptation
 
+#### [Go to this site](https://artsqw.github.io/starbucks-landing/)
+
 ### Picture:
 ![изображение](https://github.com/user-attachments/assets/7f9efd17-af60-498c-903b-50991eed9c90)
