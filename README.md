@@ -31,6 +31,6 @@ During this project, I improved my skills in:
 - Небольшой анимации;
 - Адаптивной верстки (responsive layout).
 
-👉 [Перейти на сайт](https://artsqw.github.io/starbucks-landing/)
+👉 [Перейти на сайт](https://artsqw.github.io/starbucks-landing/)  
 🖼️ Превью:
 <img width="1919" height="836" alt="изображение" src="https://github.com/user-attachments/assets/667dcb5b-978d-4393-9143-479840b3c1b3" />
