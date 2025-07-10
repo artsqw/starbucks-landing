@@ -629,9 +629,6 @@ img {
     flex-direction: row-reverse;
 }
 
-.text-row__desc {
-}
-
 .event {
     overflow: hidden; 
     padding: 45px 30px 20px;
@@ -697,37 +694,34 @@ img {
     text-transform: uppercase;
 }
 
-.btn {
-}
-
 .event__btn {
     padding: 20px 50px;
     display: inline-block;
 }
 
 .event--price {
-    background-image: url(/images/events/1.png);
+    background-image: url(images/events/1.png);
     grid-area: price;
 }
 
 
 .event--kitchen {
-    background-image: url(/images/events/2.png);
+    background-image: url(images/events/2.png);
     grid-area: kitchen;
 }
 
 .event--free {
-    background-image: url(/images/events/3.png);
+    background-image: url(images/events/3.png);
     grid-area: free;
 }
 
 .event--social {
-    background-image: url(/images/events/4.png);
+    background-image: url(images/events/4.png);
     grid-area: social;
 }
 
 .event--choose {
-    background-image: url(/images/events/5.png);
+    background-image: url(images/events/5.png);
     grid-area: choose;
 }
 
