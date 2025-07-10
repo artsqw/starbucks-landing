@@ -15,6 +15,7 @@ Landing page created according to the YouTube guide, including my changes or imp
 3. Creating Gradient Frames with Rounded Edges in Different Ways
 4. Working with pseudo-elements
 5. A little work with animations
+6. Adaptation
 
 ### Picture:
 ![изображение](https://github.com/user-attachments/assets/7f9efd17-af60-498c-903b-50991eed9c90)
