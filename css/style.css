@@ -1261,8 +1261,9 @@ img {
         font-size: 16px;
     }
 
-    .text-row__title {
+    .title {
         font-size: 48px;
+        padding-top: 20px;
     }
 
     .contacts__img {
@@ -1325,7 +1326,6 @@ img {
     .header__container .logo {
         font-size: 30px;
     }
-}
 
 @media (max-width: 500px) {
     .history__text::before {
